@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Lato", sans-serif;
+    
+}
+.bg{
+    display: block;
+    width: 100ww;
+    height: 100vh;
+    background: linear-gradient(to right bottom, lightblue 50%, lightpink 50%);
+}
+#box {
+    display: block;
+    top: 10vh;
+    position: absolute;
+    right: 40vh;
+    margin: 5% auto;
+    width: 1000px;
+    height: 500px;
+    background: #FFF;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+}
+h1{
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 2rem;
+    text-align: center;
+}
+.Coming soon {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.countdown{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.day,.hour,.minute,.second{
+    font-size: 2rem;
+}
+.logo{
+    display: block;
+    margin: auto;
+    padding: 3rem;
+}
