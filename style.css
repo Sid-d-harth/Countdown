@@ -4,22 +4,34 @@
     box-sizing: border-box;
 }
 body{
+    background-color: #000000;
+    padding: 0px;
+    margin: 0px;
     font-family: "Lato", sans-serif;
     
 }
+#gradient
+{
+  width: 100%;
+  height: 800px;
+  padding: 0px;
+  margin: 0px;
+}
+/*
 .bg{
     display: block;
     width: 100ww;
     height: 100vh;
     background: linear-gradient(to right bottom, lightblue 50%, lightpink 50%);
 }
+*/
 #box {
     display: block;
     top: 10vh;
-    position: absolute;
-    right: 40vh;
+    position: relative;
+/*    right: 45vh;*/
     margin: 5% auto;
-    width: 1000px;
+    width: 900px;
     height: 500px;
     background: #FFF;
     border-radius: 2px;
